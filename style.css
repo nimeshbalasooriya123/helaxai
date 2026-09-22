@@ -482,10 +482,28 @@ h3 {
   letter-spacing: -0.01em;
 }
 
+/* Real logo file (favicon.png): square frame crops the mark
+   above the baked-in wordmark, which the adjacent text replaces */
 .brand-mark {
-  border-radius: 9px;
-  box-shadow: 0 6px 16px -6px rgba(132, 204, 22, 0.6);
+  position: relative;
+  display: block;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 16px -8px rgba(19, 28, 8, 0.35);
   flex-shrink: 0;
+}
+
+.brand-mark img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 132%;
+  height: auto;
+  transform: translateX(-50%);
 }
 
 .brand-ai {
