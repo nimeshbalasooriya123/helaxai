@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== Primary SEO ===== -->
+  <title>Helax AI — AI Technology Built in Sri Lanka</title>
+  <meta name="description" content="Explore Helax AI, a Sri Lankan AI technology project featuring Helax N3, generative AI, intelligent tools and creative AI experiences." />
+  <link rel="canonical" href="https://helaxai.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#a3e635" />
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://helaxai.com/" />
+  <meta property="og:site_name" content="Helax AI" />
+  <meta property="og:title" content="Helax AI — AI Technology Built in Sri Lanka" />
+  <meta property="og:description" content="Explore Helax AI, a Sri Lankan AI technology project featuring Helax N3, generative AI, intelligent tools and creative AI experiences." />
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://helaxai.com/" />
+  <meta name="twitter:title" content="Helax AI — AI Technology Built in Sri Lanka" />
+  <meta name="twitter:description" content="Explore Helax AI, a Sri Lankan AI technology project featuring Helax N3, generative AI, intelligent tools and creative AI experiences." />
+
+  <!-- ===== Favicon (inline SVG, no external file needed) ===== -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2384cc16'/%3E%3Cstop offset='1' stop-color='%2310b981'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M32 10l6 16 16 6-16 6-6 16-6-16-16-6 16-6z' fill='white'/%3E%3C/svg%3E" />
+
+  <!-- ===== Fonts (with system fallbacks; page works fully offline) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ===== Structured data: Organization + WebSite ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://helaxai.com/#organization",
+        "name": "Helax AI",
+        "url": "https://helaxai.com/",
+        "description": "Sri Lankan AI technology project focused on AI models, generative AI, intelligent tools, and AI experiences.",
+        "slogan": "Intelligence, Built for the Future."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://helaxai.com/#website",
+        "url": "https://helaxai.com/",
+        "name": "Helax AI",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://helaxai.com/#organization" }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ==================================================
+       1. ANNOUNCEMENT BAR
+  =================================================== -->
+  <div class="announce" role="region" aria-label="Announcement">
+    <p class="announce-text">
+      <span class="announce-dot" aria-hidden="true"></span>
+      Helax AI — Building the future of AI from Sri Lanka.
+      <a class="announce-link" href="#models">Discover Helax N3</a>
+    </p>
+  </div>
+
+  <!-- ==================================================
+       2. NAVBAR
+  =================================================== -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Primary navigation">
+      <!-- Brand / logo (pure HTML+CSS mark) -->
+      <a href="#home" class="brand" aria-label="Helax AI — home">
+        <svg class="brand-mark" viewBox="0 0 64 64" width="34" height="34" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#84cc16" />
+              <stop offset="1" stop-color="#10b981" />
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="16" fill="url(#logoGrad)" />
+          <path d="M32 10l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" fill="#ffffff" />
+        </svg>
+        <span class="brand-name">Helax&nbsp;<span class="brand-ai">AI</span></span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link is-active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#models">AI Models</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#developers">Developers</a></li>
+        <li><a class="nav-link" href="#community">Community</a></li>
+      </ul>
+
+      <!-- Desktop actions -->
+      <div class="nav-actions">
+        <a class="btn btn-ghost btn-sm" href="https://chat.helaxai.com/">Try Helax AI</a>
+        <a class="btn btn-primary btn-sm" href="https://chat.helaxai.com/">Get Started</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-toggle" id="navToggle" type="button"
+              aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+    </nav>
+
+    <!-- Animated mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul class="mobile-nav">
+        <li><a class="mobile-link" href="#home">Home</a></li>
+        <li><a class="mobile-link" href="#models">AI Models</a></li>
+        <li><a class="mobile-link" href="#features">Features</a></li>
+        <li><a class="mobile-link" href="#developers">Developers</a></li>
+        <li><a class="mobile-link" href="#community">Community</a></li>
+      </ul>
+      <div class="mobile-actions">
+        <a class="btn btn-outline btn-block" href="https://chat.helaxai.com/">Try Helax AI</a>
+        <a class="btn btn-primary btn-block" href="https://chat.helaxai.com/">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==================================================
+         3. HERO
+    =================================================== -->
+    <section class="hero" id="home">
+      <div class="hero-shell">
+        <div class="hero-panel" id="heroPanel">
+          <!-- Inner nav row (visible on desktop; mobile uses the sticky header) -->
+          <div class="hero-nav">
+            <a href="#home" class="brand" aria-label="Helax AI — home">
+              <svg class="brand-mark" viewBox="0 0 64 64" width="34" height="34" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="logoGradHero" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#84cc16" />
+                    <stop offset="1" stop-color="#10b981" />
+                  </linearGradient>
+                </defs>
+                <rect width="64" height="64" rx="16" fill="url(#logoGradHero)" />
+                <path d="M32 10l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" fill="#ffffff" />
+              </svg>
+              <span class="brand-name">Helax&nbsp;<span class="brand-ai">AI</span></span>
+            </a>
+            <ul class="hero-nav-links">
+              <li><a class="nav-link is-active" href="#home">Home</a></li>
+              <li><a class="nav-link" href="#models">AI Models</a></li>
+              <li><a class="nav-link" href="#features">Features</a></li>
+              <li><a class="nav-link" href="#developers">Developers</a></li>
+              <li><a class="nav-link" href="#community">Community</a></li>
+            </ul>
+            <div class="hero-nav-actions">
+              <a class="btn btn-ghost btn-sm" href="https://chat.helaxai.com/">Try Helax AI</a>
+              <a class="btn btn-dark btn-sm" href="https://chat.helaxai.com/">Get Started</a>
+            </div>
+          </div>
+
+          <div class="hero-content">
+            <div class="hero-copy">
+              <span class="badge reveal">
+                <span class="badge-flag" aria-hidden="true">🇱🇰</span>
+                Built in Sri Lanka
+              </span>
+              <h1 class="hero-title reveal">
+                Create
+                <svg class="spark" viewBox="0 0 24 24" width="0.55em" height="0.55em" aria-hidden="true" focusable="false"><path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z" fill="currentColor" /></svg>
+                <span class="hl-accent">AI magic</span>,<br />
+                fast and easy
+              </h1>
+              <p class="hero-sub reveal">
+                With Helax AI&rsquo;s intuitive tools, craft stunning visuals, chat with
+                Helax N3, and explore ideas in no time. Say hello to effortless AI creation.
+              </p>
+              <div class="hero-cta reveal">
+                <a class="btn btn-primary btn-lg" href="https://chat.helaxai.com/">
+                  Start creating now
+                  <span class="btn-chip" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                </a>
+                <a class="btn-play" href="#how">
+                  <span class="play-circle" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="14" height="14" focusable="false"><path d="M8 5.5v13l11-6.5z" fill="currentColor" /></svg>
+                  </span>
+                  See how it works
+                </a>
+              </div>
+              <p class="hero-trust reveal">AI technology <span aria-hidden="true">•</span> Generative AI <span aria-hidden="true">•</span> Intelligent tools</p>
+
+              <div class="avatar-stack reveal">
+                <div class="avatars" aria-hidden="true">
+                  <span class="av-1">H</span>
+                  <span class="av-2">✦</span>
+                  <span class="av-3">N</span>
+                </div>
+                <div class="avatar-copy">
+                  <strong>For creators, students &amp; teams</strong>
+                  <small>Everyone can create with Helax AI</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Collage of AI-generated visuals + glass brief card -->
+            <div class="hero-collage reveal">
+              <figure class="collage-card cc-main">
+                <img src="assets/hero-villa.png" alt="AI-generated visual of a modern tropical villa at golden hour" width="1536" height="1024" fetchpriority="high" />
+              </figure>
+              <figure class="collage-card cc-alt">
+                <img src="assets/hero-abstract.png" alt="AI-generated abstract emerald gradient artwork" width="1536" height="1024" loading="lazy" />
+              </figure>
+              <span class="collage-chip chip-1" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" focusable="false"><path d="M12 3l1.8 6.2L20 11l-6.2 1.8L12 19l-1.8-6.2L4 11l6.2-1.8z" fill="currentColor" /></svg>
+              </span>
+              <span class="collage-chip chip-2" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" focusable="false"><path d="M4 16c2-6 6-10 12-12-1 6-4 10-9 12H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" /></svg>
+              </span>
+
+              <div class="brief-card">
+                <div class="brief-head">
+                  <span class="brief-avatar" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" focusable="false"><path d="M12 3l1.8 6.2L20 11l-6.2 1.8L12 19l-1.8-6.2L4 11l6.2-1.8z" fill="currentColor" /></svg>
+                  </span>
+                  <div>
+                    <strong>Helax Magic</strong>
+                    <small>Project brief</small>
+                  </div>
+                </div>
+                <p>I&rsquo;m imagining a calm, simple way to create visuals — describe an idea in a few words and let Helax Magic handle the rest.</p>
+                <p>The goal is to make creative AI simple for everyone in Sri Lanka and beyond.</p>
+                <span class="brief-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16" focusable="false"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+
+              <div class="collage-toolbar" aria-hidden="true">
+                <button type="button" tabindex="-1">
+                  <svg viewBox="0 0 24 24" width="17" height="17" focusable="false"><path d="M8 5.5v13l11-6.5z" fill="currentColor" /></svg>
+                </button>
+                <button type="button" tabindex="-1">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" focusable="false"><path d="M9 4H4v5m11-5h5v5m0 6v5h-5M4 15v5h5" /></svg>
+                </button>
+                <button type="button" tabindex="-1">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" focusable="false"><path d="M6 19L19 6M19 6h-8m8 0v8" /></svg>
+                </button>
+                <button type="button" tabindex="-1">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" focusable="false"><path d="M6 21L7.5 15 15 7.5 21 6l-1.5 6L12 19.5 6 21z" /><path d="M15 7.5l1.5 1.5" /></svg>
+                </button>
+                <button type="button" class="tool-active" tabindex="-1">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" focusable="false"><rect x="4" y="4" width="7" height="7" rx="2" /><rect x="13" y="4" width="7" height="7" rx="2" /><rect x="4" y="13" width="7" height="7" rx="2" /><rect x="13" y="13" width="7" height="7" rx="2" /></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         4. AI MODEL SHOWCASE
+    =================================================== -->
+    <section class="section" id="models">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Featured Model</span>
+          <h2>Meet Helax N3</h2>
+          <p>An AI model developed as part of the Helax AI ecosystem.</p>
+        </div>
+
+        <div class="model-card reveal">
+          <div class="model-info">
+            <span class="model-tag">AI Model</span>
+            <h3>Helax N3</h3>
+            <p class="model-desc">
+              Designed for a fast, natural, and advanced AI experience —
+              a new chapter in Sri Lankan AI innovation.
+            </p>
+            <ul class="model-list">
+              <li>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Advanced AI experience
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Fast responses
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Multilingual interaction
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Sri Lankan AI innovation
+              </li>
+            </ul>
+            <a class="btn btn-primary" href="https://chat.helaxai.com/">Try Helax N3</a>
+          </div>
+
+          <!-- Animated model visualization -->
+          <div class="model-viz" aria-hidden="true">
+            <div class="viz-rings">
+              <div class="viz-ring viz-ring-1"><span></span></div>
+              <div class="viz-ring viz-ring-2"><span></span></div>
+              <div class="viz-ring viz-ring-3"><span></span></div>
+              <div class="viz-core">N3</div>
+            </div>
+            <div class="viz-chip viz-chip-1">Language</div>
+            <div class="viz-chip viz-chip-2">Vision</div>
+            <div class="viz-chip viz-chip-3">Reasoning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         5. FEATURES
+    =================================================== -->
+    <section class="section section-alt" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Capabilities</span>
+          <h2>Everything you need to create with AI</h2>
+          <p>Intelligent tools across the Helax AI ecosystem, built for everyday creators, students, and developers.</p>
+        </div>
+
+        <div class="card-grid grid-3" data-stagger>
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L3 20l1-5.6a8.5 8.5 0 1 1 17-2.9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="11.5" r="1.1" fill="currentColor"/><circle cx="12.5" cy="11.5" r="1.1" fill="currentColor"/><circle cx="16" cy="11.5" r="1.1" fill="currentColor"/></svg>
+            </div>
+            <h3>AI Chat</h3>
+            <p>Converse naturally with Helax N3 — ask questions, brainstorm ideas, and get helpful answers in seconds.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 3l1.9 4.8L18.7 9.7l-4.8 1.9L12 16.4l-1.9-4.8L5.3 9.7l4.8-1.9L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M18.5 15.5l.9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z" fill="currentColor"/></svg>
+            </div>
+            <h3>Generative AI</h3>
+            <p>Create text, ideas, and concepts with generative models designed for speed and imagination.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.9 5.7 3.9 9S14.5 18.4 12 21c-2.5-2.6-3.9-5.7-3.9-9S9.5 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h3>Multilingual AI</h3>
+            <p>Interact in multiple languages — including Sinhala and Tamil — with AI that understands context.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 21a9 9 0 1 1 9-9c0 2-1.5 3-3 3h-2a2 2 0 0 0-1.5 3.3c.6.7.1 2.7-2.5 2.7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7.5" cy="10.5" r="1.2" fill="currentColor"/><circle cx="10.5" cy="7.5" r="1.2" fill="currentColor"/><circle cx="14.5" cy="7.5" r="1.2" fill="currentColor"/></svg>
+            </div>
+            <h3>Creative Tools</h3>
+            <p>From Helax Magic to AI-assisted writing, unlock tools that turn rough ideas into polished output.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m21 21-4.3-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8 11h6M11 8v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Smart Research</h3>
+            <p>Explore topics, summarize information, and dig deeper with AI built for curiosity.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m8 7-5 5 5 5M16 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="m13 5-2.5 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Developer Tools</h3>
+            <p>A developer-friendly foundation with APIs and tooling designed for builders who want to integrate AI.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         6. HELAX AI ECOSYSTEM
+    =================================================== -->
+    <section class="section" id="ecosystem">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">One Ecosystem</span>
+          <h2>The Helax AI ecosystem</h2>
+          <p>A growing family of AI models, creative tools, and experiences — built to work together.</p>
+        </div>
+
+        <div class="card-grid grid-4" data-stagger>
+          <article class="eco-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><rect x="6" y="6" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="10" y="10" width="4" height="4" rx="1" fill="currentColor"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Helax N3</h3>
+            <span class="eco-tag">AI Model</span>
+            <p>The flagship Helax AI model — built for advanced, fast, multilingual AI experiences.</p>
+            <a class="card-link" href="#models">Explore model<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="eco-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m5 19 9.5-9.5M14 4l.9 2.6L17.5 7.5l-2.6.9L14 11l-.9-2.6L10.5 7.5l2.6-.9L14 4ZM19 12l.7 1.8 1.8.7-1.8.7L19 17l-.7-1.8-1.8-.7 1.8-.7L19 12Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Helax Magic</h3>
+            <span class="eco-tag">Generative Creation</span>
+            <p>Turn written ideas into imaginative visuals with Helax AI's creative generation engine.</p>
+            <a class="card-link" href="#magic">Start creating<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="eco-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H9L4.8 20c-.5.4-1.3 0-1.3-.7V5.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 9.5h7M8.5 12.5h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Helax AI Chat</h3>
+            <span class="eco-tag">Conversational AI</span>
+            <p>A conversational AI experience for questions, writing, learning, and everyday thinking.</p>
+            <a class="card-link" href="https://chat.helaxai.com/">Open chat<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="eco-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 3h6M10 3v5.2L4.7 17a3 3 0 0 0 2.6 4.5h9.4A3 3 0 0 0 19.3 17L14 8.2V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 14h9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Helax AI Studio</h3>
+            <span class="eco-tag">Build &amp; Experiment</span>
+            <p>A space for AI development and experimentation — where new Helax experiences take shape.</p>
+            <a class="card-link" href="https://helaxai.com/">Visit studio<span aria-hidden="true"> →</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         7. HELAX MAGIC
+    =================================================== -->
+    <section class="section section-alt" id="magic">
+      <div class="container">
+        <div class="magic-grid-layout">
+          <div class="magic-copy reveal">
+            <span class="eyebrow">Helax Magic</span>
+            <h2>Turn ideas into visuals.</h2>
+            <p class="section-lead">Create imaginative visuals with Helax Magic — describe what you imagine, and watch it take shape.</p>
+            <ul class="magic-points">
+              <li>Describe any scene, style, or concept</li>
+              <li>Iterate quickly with fresh variations</li>
+              <li>Made for creators, designers, and dreamers</li>
+            </ul>
+          </div>
+
+          <!-- Image-generation UI demonstration -->
+          <div class="magic-panel reveal">
+            <div class="magic-controls">
+              <label class="sr-only" for="magicPrompt">Describe the image you want to create</label>
+              <input class="magic-input" id="magicPrompt" type="text"
+                     placeholder="A futuristic city above the clouds at sunrise…"
+                     maxlength="140" autocomplete="off" />
+              <button class="btn btn-primary" id="magicGenerate" type="button">Generate</button>
+            </div>
+            <p class="magic-status" id="magicStatus" role="status" aria-live="polite">
+              Demo interface — connect an API to enable real generation.
+            </p>
+            <div class="magic-grid" id="magicGrid">
+              <figure class="magic-tile">
+                <div class="tile-art"></div>
+                <figcaption class="tile-label">Awaiting prompt</figcaption>
+              </figure>
+              <figure class="magic-tile">
+                <div class="tile-art"></div>
+                <figcaption class="tile-label">Awaiting prompt</figcaption>
+              </figure>
+              <figure class="magic-tile">
+                <div class="tile-art"></div>
+                <figcaption class="tile-label">Awaiting prompt</figcaption>
+              </figure>
+              <figure class="magic-tile">
+                <div class="tile-art"></div>
+                <figcaption class="tile-label">Awaiting prompt</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         8. WHY HELAX AI
+    =================================================== -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our Vision</span>
+          <h2>Built with a vision for AI innovation.</h2>
+          <p>Helax AI is more than a product — it's a long-term commitment to AI research, creativity, and technology from Sri Lanka.</p>
+        </div>
+
+        <div class="card-grid grid-3" data-stagger>
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h3>Sri Lankan Innovation</h3>
+            <p>Proudly designed and built in Sri Lanka, for the world — homegrown technology with global ambition.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 3h6M10 3v5.2L4.7 17a3 3 0 0 0 2.6 4.5h9.4A3 3 0 0 0 19.3 17L14 8.2V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 14h9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>AI Research &amp; Development</h3>
+            <p>A continuously evolving project focused on exploring what AI models and experiences can become.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m8 7-5 5 5 5M16 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="m13 5-2.5 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Developer-Focused Technology</h3>
+            <p>Built with builders in mind — APIs and tools designed so developers can create on top of Helax AI.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 3l1.9 4.8L18.7 9.7l-4.8 1.9L12 16.4l-1.9-4.8L5.3 9.7l4.8-1.9L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Creative AI Experiences</h3>
+            <p>From conversation to visual generation, Helax AI puts creativity at the center of every experience.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M16 8.5a3.2 3.2 0 0 1 0 5.4M18.5 15.5c1.4 1 2.5 2.4 2.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Accessible AI Tools</h3>
+            <p>AI that anyone can use — students, creators, and teams — with experiences designed to be approachable.</p>
+          </article>
+
+          <article class="why-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="5.5" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18.5" cy="5.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18.5" cy="18.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7.8 10.8 16.2 6.7M7.8 13.2l8.4 4.1" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h3>Growing AI Ecosystem</h3>
+            <p>Models, tools, and community initiatives that grow together into a complete AI platform.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         9. HOW IT WORKS
+    =================================================== -->
+    <section class="section section-alt" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How It Works</span>
+          <h2>Start creating in three steps</h2>
+          <p>Helax AI is designed to be simple — from your first prompt to your finished result.</p>
+        </div>
+
+        <ol class="steps" data-stagger>
+          <li class="step reveal">
+            <div class="step-num">01</div>
+            <h3>Choose an AI experience</h3>
+            <p>Pick the right tool — chat with Helax N3, create with Helax Magic, or build with developer tools.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-num">02</div>
+            <h3>Give Helax AI your prompt</h3>
+            <p>Describe what you need in your own words. The clearer your idea, the better the result.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-num">03</div>
+            <h3>Create, explore, and iterate</h3>
+            <p>Review the result, refine your prompt, and keep shaping the output until it's right.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         10. USE CASES
+    =================================================== -->
+    <section class="section" id="use-cases">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Use Cases</span>
+          <h2>Made for every kind of mind</h2>
+          <p>However you work, learn, or create — there's a Helax AI experience for you.</p>
+        </div>
+
+        <div class="card-grid grid-3" data-stagger>
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 8h7M9 11.5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Students</h3>
+            <p>Learn new topics, summarize study material, and get clear explanations whenever you're stuck.</p>
+          </article>
+
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m7 9 3 3-3 3M12.5 15H17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Developers</h3>
+            <p>Prototype with AI, draft code, debug faster, and prepare for future Helax AI integrations.</p>
+          </article>
+
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><rect x="3" y="6" width="18" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m10.5 9.8 4.5 2.7-4.5 2.7V9.8Z" fill="currentColor"/></svg>
+            </div>
+            <h3>Creators</h3>
+            <p>Generate visuals with Helax Magic, brainstorm content ideas, and bring stories to life.</p>
+          </article>
+
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 3h6M10 3v5.2L4.7 17a3 3 0 0 0 2.6 4.5h9.4A3 3 0 0 0 19.3 17L14 8.2V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="15.5" r="1.3" fill="currentColor"/><circle cx="13.8" cy="17" r="1" fill="currentColor"/></svg>
+            </div>
+            <h3>Researchers</h3>
+            <p>Explore concepts, organize findings, and accelerate literature reviews with AI assistance.</p>
+          </article>
+
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><rect x="3" y="7" width="18" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 12.5h18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h3>Businesses</h3>
+            <p>Draft communication, explore ideas, and streamline everyday workflows with intelligent tools.</p>
+          </article>
+
+          <article class="use-card reveal">
+            <div class="icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m14 6 4 4L7.5 20.5H3.5v-4L14 6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m12.5 7.5 4 4M17 3l1.2-1.2a1.6 1.6 0 0 1 2.3 0l1.7 1.7a1.6 1.6 0 0 1 0 2.3L20.5 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Designers</h3>
+            <p>Visualize concepts quickly, generate moodboards, and iterate on creative directions in minutes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         11. DEVELOPER SECTION
+    =================================================== -->
+    <section class="section devs" id="developers">
+      <div class="container devs-grid">
+        <div class="devs-copy reveal">
+          <span class="eyebrow eyebrow-light">For Developers</span>
+          <h2>Build with Helax AI.</h2>
+          <p class="section-lead">
+            Helax AI is being built as a platform — with APIs, models, and
+            developer tools designed for the next wave of AI-powered apps.
+          </p>
+          <ul class="devs-chips">
+            <li>API</li>
+            <li>AI Models</li>
+            <li>Developer Tools</li>
+            <li>Integrations</li>
+          </ul>
+          <a class="btn btn-light" href="https://helaxai.com/">Explore Developer Tools</a>
+          <p class="devs-note">Sample code shown for illustration — developer access is coming soon.</p>
+        </div>
+
+        <!-- Code editor style UI -->
+        <div class="code-window reveal">
+          <div class="code-bar" aria-hidden="true">
+            <span class="code-dot code-dot-r"></span>
+            <span class="code-dot code-dot-y"></span>
+            <span class="code-dot code-dot-g"></span>
+            <span class="code-file">helax.js</span>
+          </div>
+          <pre class="code-body"><code><span class="tok-c">// Sample integration — coming soon</span>
+<span class="tok-k">const</span> response = <span class="tok-k">await</span> helaxAI.<span class="tok-f">chat</span>({
+  prompt: <span class="tok-s">"Hello Helax AI"</span>
+});
+
+<span class="tok-k">const</span> image = <span class="tok-k">await</span> helaxAI.<span class="tok-f">magic</span>.<span class="tok-f">generate</span>({
+  prompt: <span class="tok-s">"A futuristic city above the clouds"</span>
+});</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         12. COMMUNITY / COMPETITION
+    =================================================== -->
+    <section class="section section-alt" id="community">
+      <div class="container">
+        <div class="community-card reveal">
+          <span class="co-badge">NHB LK × Helax AI</span>
+          <h2>Helax AI Generative Image Competition</h2>
+          <p>
+            Show what you can create with Helax Magic. Join the generative
+            image competition and share your vision of the future — open to
+            creators across Sri Lanka.
+          </p>
+          <!-- Update competition dates and details here as needed -->
+          <ul class="co-meta">
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Entries open — dates announced on the competition page
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Organized with NHB LK
+            </li>
+          </ul>
+          <a class="btn btn-primary" href="https://helaxai.com/co.html">Explore Competition</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         13. FAQ
+    =================================================== -->
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Everything you need to know about Helax AI and the ecosystem.</p>
+        </div>
+
+        <div class="faq-list" id="faqList">
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+                What is Helax AI?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div class="faq-a-inner">
+                <p>Helax AI is a Sri Lankan AI technology project focused on AI models, generative AI, intelligent tools, and AI experiences — built to make modern AI accessible to everyone.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                What is Helax N3?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div class="faq-a-inner">
+                <p>Helax N3 is the flagship AI model of the Helax AI ecosystem. It's designed for advanced AI experiences with fast responses and multilingual interaction, including support for Sri Lankan languages.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                What is Helax Magic?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div class="faq-a-inner">
+                <p>Helax Magic is the creative generation experience in the Helax AI ecosystem. It turns written prompts into imaginative visuals — built for creators, designers, and anyone with an idea to explore.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                Can I use Helax AI for free?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div class="faq-a-inner">
+                <p>You can explore Helax AI experiences through the platforms provided by the team. For the latest access options and any future plans, visit <a href="https://helaxai.com/">helaxai.com</a> or try the chat at <a href="https://chat.helaxai.com/">chat.helaxai.com</a>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                Is Helax AI built in Sri Lanka?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div class="faq-a-inner">
+                <p>Yes. Helax AI is proudly built in Sri Lanka 🇱🇰 — a homegrown AI technology project with a vision for Sri Lankan innovation on the global stage.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <h3 class="faq-heading">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+                Can developers build with Helax AI?
+                <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+            </h3>
+            <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6">
+              <div class="faq-a-inner">
+                <p>Developer tools and APIs are part of the Helax AI roadmap. The developer section above shows the direction — stay tuned through <a href="https://helaxai.com/">helaxai.com</a> for announcements on developer access.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         14. FINAL CTA
+    =================================================== -->
+    <section class="section cta-section" id="cta">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-glow cta-glow-a" aria-hidden="true"></div>
+          <div class="cta-glow cta-glow-b" aria-hidden="true"></div>
+          <span class="eyebrow eyebrow-light">Helax AI</span>
+          <h2>Explore the future of AI.</h2>
+          <p>Experience the Helax AI ecosystem — chat with Helax N3, create with Helax Magic, and build what's next.</p>
+          <div class="cta-actions">
+            <a class="btn btn-light btn-lg" href="https://chat.helaxai.com/">Try Helax AI</a>
+            <a class="btn btn-outline-light btn-lg" href="https://helaxai.com/">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================================================
+       15. FOOTER
+  =================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand brand-footer" aria-label="Helax AI — home">
+          <svg class="brand-mark" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="logoGradFooter" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#84cc16" />
+                <stop offset="1" stop-color="#10b981" />
+              </linearGradient>
+            </defs>
+            <rect width="64" height="64" rx="16" fill="url(#logoGradFooter)" />
+            <path d="M32 10l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" fill="#ffffff" />
+          </svg>
+          <span class="brand-name">Helax&nbsp;<span class="brand-ai">AI</span></span>
+        </a>
+        <p>AI technology built from Sri Lanka.</p>
+        <!-- Replace # with real social profile URLs -->
+        <div class="socials">
+          <a href="#" aria-label="Helax AI on X (Twitter)" title="X (Twitter)">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Helax AI on Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0Zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Helax AI on YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814ZM9.545 15.568V8.432L15.818 12l-6.273 3.568Z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Helax AI on GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12Z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-col" aria-label="Footer navigation">
+        <h2 class="footer-title">Navigation</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#models">AI Models</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#developers">Developers</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Helax AI links">
+        <h2 class="footer-title">Links</h2>
+        <ul>
+          <li><a href="https://helaxai.com/">Helax AI</a></li>
+          <li><a href="https://chat.helaxai.com/">Helax AI Chat</a></li>
+          <li><a href="https://helaxai.com/co.html">Competition</a></li>
+          <!-- Replace with the official NHB LK URL when available -->
+          <li><a href="#">NHB LK</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Helax AI. All rights reserved.</p>
+        <p class="footer-made">Intelligence, Built for the Future.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
